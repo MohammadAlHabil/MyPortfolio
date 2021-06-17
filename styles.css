@@ -85,10 +85,22 @@ header .logo {
 
 .nav-item a {
   color: #1c2530;
+  position: relative;
 }
 
-.nav-item a:hover {
-  border-bottom: solid 2px var(--customColor);
+.nav-item a:hover:after {
+  width: 100%;
+}
+
+.nav-item a:after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: var(--customColor);
+  position: absolute;
+  left: 0px;
+  bottom: -11px;
+  transition: width 0.5s ease-in-out;
 }
 
 nav input {
