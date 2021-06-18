@@ -17,17 +17,17 @@
   <title>Portfolio Website</title>
 </head>
 
-<body>
+<body class="flex">
   <div class="container">
     <!-- Header -->
     <header id="home" class="header">
       <!-- Navigation -->
-      <nav class="nav">
+      <nav class="nav flexBetween">
         <div class="logo">
           <span>Mohammad Alhabil</span>
         </div>
 
-        <ul class="nav-list">
+        <ul class="nav-list flex">
           <li class="nav-item">
             <a href="#home" class="nav-link scroll-link">Home</a>
           </li>
@@ -52,7 +52,7 @@
       </nav>
 
       <!-- Mine -->
-      <div class="middel">
+      <div class="middel flexBetween">
         <div class="myName">
           <h3>Hello, my name is</h3>
           <h1 class="item">Mohammad AlHabil</h1>
@@ -86,7 +86,7 @@
 
     <!-- About me -->
     <section class="section about" id="about">
-      <div class="about-center">
+      <div class="about-center flexBetween">
         <div class="left">
           <div class="above">
             <div class="title">
@@ -122,32 +122,33 @@
     <!-- testimonials  -->
     <section class="testimonials" id="testimonials">
       <h1 class="title1">TESTIMONIALS</h1>
-      <div class="cards">
-        <div class="card">
+      <div class="cards flexBetween">
+        <div class="card flexBetween">
           <img src="./images/profile2.jpg" alt="" class="image" />
           <p class="desc">
-            "Bring to the table win-win survival strategies to ensure
-            proactive domination. At the end of the day going forward."
+            "He is the best freelancer in the site.
+            He is creative and flexible and delivers the project on time with high quality.
+            I will hire him again for sure"
           </p>
-          <span class="name">Ali</span>
+          <span class="name">Yazeed</span>
         </div>
 
-        <div class="card cardMiddel">
+        <div class="card cardMiddel flexBetween">
           <img src="./images/profile3.jpeg" alt="" class="image" />
           <p class="desc">
-            "Bring to the table win-win survival strategies to ensure
-            proactive domination. At the end of the day"
+            "Delivered on time - whereas the deadline was tight.
+            Mohammad did an AMAZING job - very professional. Thank you so much!"
           </p>
-          <span class="name">Mohammad</span>
+          <span class="name">Yazyk</span>
         </div>
 
-        <div class="card">
+        <div class="card flexBetween">
           <img src="./images/profile5.jpeg" alt="" class="image" />
           <p class="desc">
-            "Bring to the table win-win survival strategies to ensure
-            proactive domination. At the end of the day"
+            "Mohammed ensures that your requests are met and is always
+            willing to make changes. His attitude is exceptional."
           </p>
-          <span class="name">Mahmoud</span>
+          <span class="name">Dinesh</span>
         </div>
       </div>
     </section>
@@ -155,7 +156,7 @@
     <!-- services  -->
     <section id="services">
       <h1 class="title1">SERVICES</h1>
-      <div class="services">
+      <div class="services flex">
         <div class="left">
           <h1>Services I offer</h1>
           <p>
@@ -190,7 +191,7 @@
     <!-- skills  -->
     <section id="skills">
       <h1 class="title1">SKILLS</h1>
-      <div class="skills">
+      <div class="skills flex">
         <div class="right">
           <img src="./images/skills.svg" alt="" />
         </div>
@@ -198,35 +199,35 @@
           <div class="skills-box">
             <h4>Figma</h4>
             <div class="skills-ilt">
-              <div class="skills-bar html"></div>
+              <div class="skills-bar Figma"></div>
               <span>95%</span>
             </div>
           </div>
           <div class="skills-box">
             <h4>XD</h4>
             <div class="skills-ilt">
-              <div class="skills-bar css"></div>
+              <div class="skills-bar XD"></div>
               <span>85%</span>
             </div>
           </div>
           <div class="skills-box">
             <h4>Illustrator</h4>
             <div class="skills-ilt">
-              <div class="skills-bar javascript"></div>
+              <div class="skills-bar Illustrator"></div>
               <span>90%</span>
             </div>
           </div>
           <div class="skills-box">
             <h4>Photoshope</h4>
             <div class="skills-ilt">
-              <div class="skills-bar nodejs"></div>
+              <div class="skills-bar Photoshope"></div>
               <span>80%</span>
             </div>
           </div>
           <div class="skills-box">
             <h4>Indesign</h4>
             <div class="skills-ilt">
-              <div class="skills-bar mongodb"></div>
+              <div class="skills-bar Indesign"></div>
               <span>95%</span>
             </div>
           </div>
@@ -236,13 +237,13 @@
 
     <!-- contact -->
     <section class="contact" id="contact">
-      <div class="contact-center">
+      <div class="contact-center flexBetween">
         <div class="right">
           <div class="title2">
             <h1>CONTACT WITH ME</h1>
           </div>
 
-          <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+          <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate>
             <div class="form-group">
               <label class="label" for="name">Full Name</label>
               <input type="text" class="form-control" name="name" id="name" placeholder="Name" />
