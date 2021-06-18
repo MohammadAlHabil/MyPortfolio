@@ -86,7 +86,6 @@ header .logo {
 }
 
 .nav-item a {
-<<<<<<< HEAD
   color: var(--main);
   position: relative;
 }
@@ -103,24 +102,6 @@ header .logo {
   position: absolute;
   left: 0px;
   bottom: -1rem;
-=======
-  color: #1c2530;
-  position: relative;
-}
-
-.nav-item a:hover:after {
-  width: 100%;
-}
-
-.nav-item a:after {
-  content: "";
-  width: 0px;
-  height: 3px;
-  background: var(--customColor);
-  position: absolute;
-  left: 0px;
-  bottom: -11px;
->>>>>>> 670443def27edd0bef6ab13d4bf21c28ae3e6bd1
   transition: width 0.5s ease-in-out;
 }
 
